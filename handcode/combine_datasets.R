@@ -17,6 +17,6 @@ d.set
 train.index<-sample(nrow(d.set),nrow(d.set)*0.3) #get 30% of data
 train.index #Shows data
 
-training.set<-d.set[train.index,]
-test.set<-d.set[-train.index,]
+training.set<-d.set[train.index,] #make training set of 30% of data
+test.set<-d.set[-train.index,] #make test set of 70% of data or simply the rest of data in dataset
 training.set #shows training dataset 
