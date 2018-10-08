@@ -12,6 +12,8 @@ plot(cars)
 
 install.packages("stringi")
 
+install.packages("stringi")
+
 ```
 
 
