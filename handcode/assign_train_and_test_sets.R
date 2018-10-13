@@ -16,6 +16,9 @@ d.set
 train.index<-sample(nrow(d.set),nrow(d.set)*0.3)
 train.index
 
-training.set<-d.set[train.index,]
-test.set<-d.set[-train.index,]
-training.set //shows training dataset 
+train<-train.index
+test<- -train.index
+
+training.set<-d.set[train,]
+test.set<-d.set[test,]
+training.set #shows training dataset 
