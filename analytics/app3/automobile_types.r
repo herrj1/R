@@ -12,9 +12,7 @@ plot(autos_data$cars, type="o", col=plot_colors[1],
 ylim=c(0,max_y), axes=FALSE, ann=FALSE)
 
 axis(1, at=1:5, lab=c("Mon", "Tue", "Wed", "Thu", "Fri"))
-
 axis(2, las=1, at=4*0:max_y)
-
 box()
 
 
