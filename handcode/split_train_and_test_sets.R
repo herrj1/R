@@ -1,3 +1,4 @@
+#reading dataset
 stuff1<-read.table("stuff1.txt",header=TRUE,sep=",")
 stuff1.label<-rep(1,100)
 stuff1<-cbind(stuff1,stuff1.label)
