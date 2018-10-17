@@ -96,7 +96,6 @@ for (i in names(b[b==FALSE])) {
 new.KDD.test = new.KDD.test[colnames(new.KDD.train)]
 new.KDD.test.shuffle = new.KDD.test.shuffle[colnames(new.KDD.train)]
 
-
 #Check if columns match between train and test
 names(new.KDD.test)==names(new.KDD.train)
 names(new.KDD.test.shuffle)==names(new.KDD.train.shuffle)
