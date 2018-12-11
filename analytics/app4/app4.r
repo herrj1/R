@@ -1,4 +1,4 @@
-#set application directory
+#set application to the respective directories
 setwd("directory path")
 
 #clear screen
