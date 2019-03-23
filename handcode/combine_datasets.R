@@ -1,8 +1,11 @@
+
+## read initial batch of digits
 stuff1<-read.table("stuff1.txt",header=TRUE,sep=",")
 stuff1.label<-rep(1,100)
 stuff1<-cbind(stuff1,stuff1.label)
 names(stuff1)<-c("weight","height","label")
 
+## read second batch of digits
 stuff2<-read.table("stuff2.txt",header=TRUE,sep=",")
 stuff2.label<-rep(-1,100)
 stuff2<-cbind(stuff2,stuff2.label)
