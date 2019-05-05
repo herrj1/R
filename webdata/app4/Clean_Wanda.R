@@ -1,6 +1,6 @@
 #################################################
 ####       Network Intrusion Detection       ####
-####           Data Load and Prep            ####
+####           Data Load and Preps            ####
 #################################################
 
 library(nnet)
