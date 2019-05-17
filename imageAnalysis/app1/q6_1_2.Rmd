@@ -3,7 +3,7 @@ title: 'Hwk 2 Question 6: Part a and b'
 output: html_notebook
 ---
 Student: Jonathan <br/>
-Course: Deep Learning CAP6619 <br/>
+Course: Deep Learning CAPxxxx <br/>
 Fall 2018
 ```{r}
 library(pixmap)
