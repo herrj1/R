@@ -6,7 +6,7 @@ install.packages("TSA")
 library(forecast)
 library(TSA)
 
-#get data
+#get datas
 data("co2")
 data("boardings") 
 
