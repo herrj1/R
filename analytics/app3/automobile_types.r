@@ -1,7 +1,6 @@
 
 autos_data<-read.table("autos.dat",header=T, sep="\t")
 
-
 max_y<-max(autos_data)
 
 plot_colors<-c("blue","red","green")
@@ -9,6 +8,7 @@ plot_colors<-c("blue","red","green")
 png(filename = "./images/figure.png", height = 295, width = 300, bg="white")
 
 plot(autos_data$cars, type="o", col=plot_colors[1],
+
 ylim=c(0,max_y), axes=FALSE, ann=FALSE)
 
 axis(1, at=1:5, lab=c("Mon", "Tue", "Wed", "Thu", "Fri"))
