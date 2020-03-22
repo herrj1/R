@@ -1,5 +1,5 @@
 ---
-title: 'Hwk 2 Question 6: Part c and d'
+title: 'Hwk 2Question 6: Part c and d'
 output: html_notebook
 ---
 Student: John H<br/>
