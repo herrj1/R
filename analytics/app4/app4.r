@@ -1,7 +1,7 @@
 #set application to the respective directories
 setwd("directory path")
 
-#clear screen
+#clear screens
 ctrl+L
 
 data("iris")
