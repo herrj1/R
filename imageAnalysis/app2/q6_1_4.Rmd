@@ -1,5 +1,5 @@
 ---
-title: 'Hwk 2Question 6: Part c and d'
+title: 'Hwk 2Questions 6: Part c and d'
 output: html_notebook
 ---
 Student: John H<br/>
@@ -25,11 +25,9 @@ left1.vector<-unmatrix(left1.matrix,byrow=T)
 left1.frame<-data.frame(left1.vector)
 left1.frame
 ```
-
 ```{r}
 dim(left1.frame)
 ```
-
 ```{r}
 loadImages <- function(pathName,fileNames, clasLabel) {
 files<-list.files(path=pathName,pattern=fileNames,all.files=T,full.name=T,no..=T)
