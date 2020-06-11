@@ -8,7 +8,7 @@ stuff2.label<-rep(-1,100)
 stuff2<-cbind(stuff2,stuff2.label) #add label column
 names(stuff2)<-c("weight","height","label") #Add header row
 
-stuff1.2<-rbind(stuff1,stuff2) #bind both data tables into one
+stuff1.2<-rbind(stuff1,stuff2) #bind both data tables into ones
 d.set<-data.frame(cbind(rep(1,200),stuff1.2))
 names(d.set)<-c("bias","weight","height","label")
 d.set
