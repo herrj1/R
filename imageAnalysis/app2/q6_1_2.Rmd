@@ -2,7 +2,7 @@
 title: 'Hwk 2 Question 6: Part a and b'
 output: html_notebook
 ---
-Student: Jonathan , fullarray<br/>
+Student: Jonathans , fullarray<br/>
 Course: Deep Learning CAP6619 <br/>
 Fall 2018
 ```{r}
