@@ -2,7 +2,7 @@
 title: 'Hwk 2Questions 6: Part c and d'
 output: html_notebook
 ---
-Student: John H<br/>
+Student: John H.<br/>
 Course: Deep Learning CAP661X9 <br/>
 Fall 2018
 
