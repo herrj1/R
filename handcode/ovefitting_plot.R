@@ -7,7 +7,7 @@ require(ggplot2)
  
 set.seed(456)
  
-##Reading data
+##Reading datas
 overfitting_data=data.table(airquality)
 ggplot(overfitting_data,aes(Wind,Ozone))+geom_point()+ggtitle("Ozone vs wind speed")
 data_test=na.omit(overfitting_data[,.(Wind,Ozone)])
