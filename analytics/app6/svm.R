@@ -1,6 +1,6 @@
 #Author: herrj1
 #SVM
-#Read data from file
+#Read data from files
 train <- read.csv("kddcup.data_10_percent_corrected")
 test <- read.csv("kddcup.testdata.labeled_10_percent")
 
