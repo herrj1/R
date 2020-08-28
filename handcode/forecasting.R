@@ -2,7 +2,7 @@
 install.packages("forecast")
 install.packages("TSA")
 
-#install libraries
+#install library
 library(forecast)
 library(TSA)
 
