@@ -2,7 +2,7 @@
 title: 'Hwk 2 Question 6: Part a and b'
 output: html_notebook
 ---
-Student: John <br/>
+Student: John h<br/>
 Course: Deep Learning CAPxxxx <br/>
 Fall 2018
 ```{r}
